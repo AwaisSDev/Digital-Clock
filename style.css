@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  background: #222;
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffcc;
+  transition: all 0.4s ease; /* smooth animation */
+  cursor: pointer;
+}
+
+.clock:hover {
+  transform: scale(1.2); /* grow size */
+  box-shadow: 0 0 25px #ff0033; /* red glow */
+}
+
+#time {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
